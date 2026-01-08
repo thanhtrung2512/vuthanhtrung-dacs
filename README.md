@@ -1,56 +1,125 @@
-Tên dự án:
-Xây dựng Web App hỗ trợ học tập cho sinh viên với gợi ý nội dung thông minh
+# 🎓 Web App Hỗ Trợ Học Tập Cho Sinh Viên Với Gợi Ý Nội Dung Thông Minh
 
-Sinh viên thực hiện:
-Vũ Thành Trung – 23010378
+## 📌 Giới thiệu
+Trong thời đại chuyển đổi số giáo dục, nhu cầu học tập trực tuyến của sinh viên ngày càng gia tăng. Tuy nhiên, nhiều nền tảng hiện nay vẫn chưa hỗ trợ tốt việc cá nhân hóa nội dung học tập và theo dõi quá trình học của từng người dùng.
 
-Thời gian thực hiện:
-18/05/2024 – 20/07/2024
+Dự án **Web App hỗ trợ học tập cho sinh viên với gợi ý nội dung thông minh** được xây dựng nhằm cung cấp một nền tảng học tập trực tuyến giúp sinh viên tìm kiếm tài liệu, theo dõi lịch sử học tập và nhận các gợi ý nội dung phù hợp dựa trên hành vi học tập.
 
-Mô tả dự án
+---
 
-Dự án hướng tới việc xây dựng một Web App hỗ trợ học tập cho sinh viên, cho phép người dùng đăng ký, đăng nhập, tìm kiếm môn học, chủ đề và bài viết học tập. Hệ thống có khả năng lưu trữ lịch sử học tập và lịch sử tìm kiếm nhằm phục vụ cho việc gợi ý nội dung học tập phù hợp với từng người dùng.
+## 🎯 Mục tiêu dự án
+- Xây dựng một hệ thống web hỗ trợ học tập cho sinh viên
+- Cho phép người dùng quản lý quá trình học tập cá nhân
+- Gợi ý môn học, chủ đề và nội dung học tập phù hợp
+- Áp dụng kiến thức đã học về phân tích, thiết kế và phát triển phần mềm
 
-Mục tiêu
+---
 
-Xây dựng hệ thống hỗ trợ học tập trực tuyến cho sinh viên
+## 👥 Đối tượng sử dụng
+- Sinh viên đại học
+- Người học có nhu cầu tìm kiếm và quản lý nội dung học tập
 
-Áp dụng công nghệ Java Spring Boot trong phát triển web
+---
 
-Triển khai cơ chế gợi ý nội dung thông minh ở mức cơ bản
+## 🛠️ Công nghệ sử dụng
 
-Nâng cao trải nghiệm học tập thông qua cá nhân hóa nội dung
+### Backend
+- Java
+- Spring Boot
+- RESTful API
 
-Chức năng chính
+### Frontend
+- HTML
+- CSS
+- Thymeleaf Template Engine
 
-Đăng ký và đăng nhập người dùng
+### Cơ sở dữ liệu
+- MySQL
 
-Quản lý và hiển thị môn học, chủ đề học tập
+### Công cụ hỗ trợ
+- IntelliJ IDEA / Eclipse
+- MySQL Workbench
+- Git & GitHub
 
-Tìm kiếm bài viết và thảo luận
+---
 
-Lưu lịch sử học tập và lịch sử tìm kiếm
+## ⚙️ Chức năng chính
 
-Gợi ý môn học, chủ đề và bài viết liên quan dựa trên hành vi người dùng
+### Người dùng
+- Đăng ký và đăng nhập tài khoản
+- Xem và chỉnh sửa thông tin cá nhân
+- Tìm kiếm môn học và chủ đề
+- Xem bài viết và thảo luận học tập
+- Lưu lịch sử học tập và tìm kiếm
+- Xem thống kê quá trình học tập
 
-Công nghệ sử dụng
+### Hệ thống
+- Quản lý người dùng
+- Quản lý môn học và chủ đề
+- Ghi nhận lịch sử học tập
+- Gợi ý nội dung dựa trên hành vi người dùng
 
-Backend: Java Spring Boot
+---
 
-Frontend: HTML, CSS, JavaScript / Thymeleaf
+## 🗂️ Cấu trúc dự án
 
-Cơ sở dữ liệu: MySQL hoặc PostgreSQL
+src/
+└── main/
+├── java/
+│ └── com.example.learningapp/
+│ ├── controller/
+│ ├── service/
+│ ├── repository/
+│ ├── entity/
+│ └── dto/
+└── resources/
+├── templates/
+├── static/
+└── application.properties
 
-Kết quả dự kiến
+---
 
-Hoàn thiện Web App hỗ trợ học tập cho sinh viên
+## 🧩 Phân tích & Thiết kế
+- Use Case Diagram
+- Activity Diagram
+- Sequence Diagram
+- Class Diagram
+- Thiết kế cơ sở dữ liệu (ERD)
 
-Hệ thống có khả năng gợi ý nội dung học tập thông minh
+---
 
-Báo cáo đồ án cơ sở đầy đủ, rõ ràng và đúng chuẩn học thuật
+## 🚀 Kế hoạch thực hiện
+1. Phân tích yêu cầu và phạm vi hệ thống
+2. Thiết kế mô hình UML và cơ sở dữ liệu
+3. Xây dựng backend với Spring Boot
+4. Xây dựng giao diện người dùng
+5. Kiểm thử và hoàn thiện hệ thống
+6. Viết báo cáo và trình bày sản phẩm
 
-Áp dụng các mô hình thiết kế hệ thống như Use Case, ERD, Sequence Diagram
+---
 
-Ý nghĩa của đề tài
+## 📊 Kết quả đạt được
+- Web App hỗ trợ học tập hoạt động ổn định
+- Hệ thống gợi ý nội dung mức cơ bản
+- Báo cáo đồ án đầy đủ và chi tiết
+- Mã nguồn công khai phục vụ học tập và nghiên cứu
 
-Dự án góp phần xây dựng một nền tảng học tập trực tuyến có tính ứng dụng thực tiễn, hỗ trợ sinh viên tiếp cận nội dung học tập phù hợp và hiệu quả hơn thông qua cơ chế gợi ý thông minh.
+---
+
+## 📌 Phạm vi dự án
+- Triển khai dưới dạng Web Application
+- Phục vụ mục đích học tập và nghiên cứu
+- Chưa triển khai thương mại
+
+---
+
+## 📝 Tác giả
+- **Vũ Thành Trung**  
+  Sinh viên ngành Công nghệ Thông tin (ICT-VJ)  
+  Trường Đại học Phenikaa
+
+---
+
+## 📄 Giấy phép
+Dự án được phát triển cho mục đích học tập và nghiên cứu.
+
